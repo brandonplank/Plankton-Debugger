@@ -77,8 +77,14 @@ void set_thread(mach_port_t port, int thread_number);
 void get_thread(mach_port_t port, int thread_number);
 void get_number_of_threads(mach_port_t port);
 
-//Vars
+//Serial
+int serial(void);
+void writeSerial(const char* text);
+void spawnproc(void);
+void block_attribs(int fd, int block_now);
+int attribs(int fd, int baudrate);
 
+//Vars
 uint64_t offset_options = 0;
 uint64_t offset_cr_flags = 0;
 uint64_t offset_zonemap=0;

@@ -1,0 +1,6 @@
+framework module libplankton {
+  umbrella header "libplankton.h"
+
+  export *
+  module * { export * }
+}

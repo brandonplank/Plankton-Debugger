@@ -30,17 +30,12 @@ void runAttach(){
     char process[128];
     scanf("%s",*&process);
     printf("\x1b[0m");
-               
-    if (!isdigit(process[0])){
-        pid = (int)get_pid_of_proc(process);
-    } else {
-        pid = atoi(process);
-    }
+    pid = getPidOfProc(process);
     if (pid == 0){
         printf("plankton does not currently support kernel debugging.\n");
         return;
     }
-    printf("Attaching to PID %d...\n\n",pid);
+    printf("[+] Attaching to PID %d...\n",pid);
 
     mach_port_t port;
     kern_return_t kr;
@@ -55,7 +50,7 @@ void runAttach(){
         return;
     }
     printf("[+] Got task port 0x%x for PID %d\n",port,pid);
-    printf("Attached PID %d\n\n",pid);
+    printf("[+] Attached PID %d\n",pid);
     attach(port);
 }
 
@@ -178,12 +173,9 @@ void attach(mach_port_t port){
         }else if (strcmp(cmd[0],"q")==0){
             quit();
         }else if (strcmp(cmd[0], "registers")==0){
-            thread_act_port_array_t thread_list;
-            mach_msg_type_number_t thread_count;
             int thread_number = 0;
             // get threads in task
-            task_threads(port, &thread_list, &thread_count);
-            printf("[+] Number of threads in process: %x\n",thread_count);
+            get_number_of_threads(port);
             printf("Enter the thread to attach to >> ");
             scanf("%d",&thread_number);
             printf("\x1b[0m");
@@ -197,10 +189,8 @@ void attach(mach_port_t port){
         }else if (strcmp(cmd[0], "regset")==0){
             uint64_t value = (int)strtol(cmd[2],NULL,16);
             int thread_number = 0;
-            task_threads(port, &thread_list, &thread_count);
-            printf("[+] Number of threads in process: %x\n",thread_count);
+            get_number_of_threads(port);
             clear_register_vars();
-            
             printf("Enter the thread to attach to >> ");
             scanf("%d",&thread_number);
             printf("\x1b[0m");

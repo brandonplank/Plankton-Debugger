@@ -71,11 +71,11 @@ void set_register(mach_port_t port, int thread_number, int register_num, uint64_
 void check_register(mach_port_t port, int thread_number, uint64_t value, int register_num, const char *other_registers);
 void set_and_check_reg(mach_port_t port, int thread_number, uint64_t value, int register_num, const char *other_registers);
 void regset(char reg[], uint64_t value, mach_port_t port, int thread_number);
-uint64_t get_pid_of_proc(const char *process_name);
 void listreg(mach_port_t port, int thread_number);
 
 void set_thread(mach_port_t port, int thread_number);
 void get_thread(mach_port_t port, int thread_number);
+void get_number_of_threads(mach_port_t port);
 
 //Vars
 

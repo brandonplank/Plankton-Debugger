@@ -95,17 +95,17 @@ void plankton(){
         }else if (strcmp(cmd[0], "rk")==0){
             uint64_t value = strtoull(cmd[1], NULL, 0);
             size_t size = (size_t)strtoull(cmd[2],NULL,0);
+            uint64_t livekerneladdr = kbase + kslide;
+            if(value == livekerneladdr){
+                printf("[!] Due to an issue with plankton, you are not able to read the live kernel base, as it kernel panics the device.\n");
+                return;
+            }
             if(value <= 0){
                 printf("[!] The address cannot be 0 or less than 0.\n");
                 return;
             }
-            if (size <= 0){
+            if ((int)cmd[2] <= 0){
                 printf("[!] The size cannot be 0 or less than 0.\n");
-                return;
-            }
-            uint64_t livekerneladdr = kbase + kslide;
-            if(value == livekerneladdr){
-                printf("[!] Due to an issue with plankton, you are not able to read the live kernel base, as it kernel panics the device.\n");
                 return;
             }
             printf("[+] Reading 0x%016llx\n", value);
@@ -230,6 +230,7 @@ int main(int argc, const char **argv, const char **envp) {
         return 1;
     }
     initEngine();
+    tfp0 = getTfp0();
     printf("[+] Starting plankton by Brandon Plank\n[i] This is a beta, so expect more features!\n");
     give_info();
     plankton();

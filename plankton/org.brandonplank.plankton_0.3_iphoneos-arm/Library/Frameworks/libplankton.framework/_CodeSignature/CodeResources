@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		EiEinXA9rAPRhKtl5j3DGiqM+tg=
-		</data>
 		<key>Headers/libplankton.h</key>
 		<data>
-		TkZtjAuWkwcREfOgwpBmO4IDvd0=
+		5Y9+XMsX6KasCkabYzRSg0Cu/1c=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -27,7 +23,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TN6kpMitBfyyyORO7Qecx6Jw1BnhMrYU8k6VJ/9K0ls=
+			Xfv8mH55j32u5r58K+4o4zcw4r5ztJBCO8qIScm4+3k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

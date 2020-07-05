@@ -37,21 +37,15 @@ void runAttach(){
     }
     printf("[+] Attaching to PID %d...\n",pid);
 
-    mach_port_t port;
-    kern_return_t kr;
-
-    if(pid == 0){
-        port = tfp0;
-    } else if ((kr = task_for_pid(mach_task_self(), pid, &port)) != KERN_SUCCESS){
-        printf("[!] Error!\n");
-               
-        printf("[!] Call to task_for_pid() with PID %d failed.\n",pid);
-               
+    mach_port_t port = getPort(pid);
+    if (!MACH_PORT_VALID(port)){
+        printf("[!] Mach port is not valid\n");
         return;
+    } else {
+        printf("[+] Got task port 0x%x for PID %d\n",port,pid);
+        printf("[+] Attached PID %d\n",pid);
+        attach(port);
     }
-    printf("[+] Got task port 0x%x for PID %d\n",port,pid);
-    printf("[+] Attached PID %d\n",pid);
-    attach(port);
 }
 
 void plankton(){

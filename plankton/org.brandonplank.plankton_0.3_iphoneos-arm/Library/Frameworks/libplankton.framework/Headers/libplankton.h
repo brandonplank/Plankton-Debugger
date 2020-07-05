@@ -2,7 +2,7 @@
 //  libplankton.h
 //  libplankton
 //
-//  Created by Brandon Plank on 5/25/20.
+//  Created by Brandon Plank on 7/5/20.
 //  Copyright © 2020 Brandon Plank. All rights reserved.
 //
 
@@ -30,7 +30,7 @@
 
 //! Project version number for libplankton.
 FOUNDATION_EXPORT double libplanktonVersionNumber;
- 
+
 //! Project version string for libplankton.
 FOUNDATION_EXPORT const unsigned char libplanktonVersionString[];
 
@@ -41,7 +41,7 @@ uint64_t Kernel_Execute(uint64_t addr, uint64_t x0, uint64_t x1, uint64_t x2, ui
 //Reading
 kern_return_t readFromkernel(task_t tfp0, uint64_t addr, void *data, size_t size);
 uint64_t rf(uint64_t addr, mach_port_t port, uint64_t size);
-size_t read_from(uint64_t addr, void *buf, size_t size, mach_port_t port);
+size_t read_from_task(uint64_t addr, void *buf, size_t size, mach_port_t port);
 uint64_t rk64(uint64_t addr);
 size_t kernel_read(uint64_t addr, void *buf, size_t size);
 //Writing
@@ -78,13 +78,6 @@ void set_thread(mach_port_t port, int thread_number);
 void get_thread(mach_port_t port, int thread_number);
 void get_number_of_threads(mach_port_t port);
 
-//Serial
-int serial(void);
-void writeSerial(const char* text);
-void spawnproc(void);
-void block_attribs(int fd, int block_now);
-int attribs(int fd, int baudrate);
-
 //Vars
 uint64_t offset_options = 0;
 uint64_t offset_cr_flags = 0;
@@ -98,6 +91,5 @@ mach_msg_type_number_t thread_count;
 // get threads in task
 arm_thread_state64_t arm_state64;
 mach_msg_type_number_t sc = ARM_THREAD_STATE64_COUNT;
-
 
 

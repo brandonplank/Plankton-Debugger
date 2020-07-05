@@ -10,7 +10,7 @@
 		8807BC5F2453CC3C002D8D46 /* plankton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8807BC5E2453CC3C002D8D46 /* plankton.m */; };
 		8807BC662453CD53002D8D46 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 8807BC642453CD53002D8D46 /* Makefile */; };
 		8807BC692453CDB7002D8D46 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 8807BC682453CDB7002D8D46 /* Makefile */; };
-		88081AA2247E209D00C77B3C /* libplankton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88081AA1247E209D00C77B3C /* libplankton.framework */; };
+		8813EC1924B29D2F004E915E /* libplankton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8813EC1824B29D2F004E915E /* libplankton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,7 +33,7 @@
 		8807BC632453CD52002D8D46 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
 		8807BC642453CD53002D8D46 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		8807BC682453CDB7002D8D46 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		88081AA1247E209D00C77B3C /* libplankton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libplankton.framework; sourceTree = "<group>"; };
+		8813EC1824B29D2F004E915E /* libplankton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libplankton.framework; sourceTree = "<group>"; };
 		885571C02394578000524A54 /* plankton */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = plankton; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88081AA2247E209D00C77B3C /* libplankton.framework in Frameworks */,
+				8813EC1924B29D2F004E915E /* libplankton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +79,7 @@
 		885571C22394578000524A54 /* plankton */ = {
 			isa = PBXGroup;
 			children = (
-				88081AA1247E209D00C77B3C /* libplankton.framework */,
+				8813EC1824B29D2F004E915E /* libplankton.framework */,
 				8807BC672453CD8D002D8D46 /* plankton */,
 				8807BC632453CD52002D8D46 /* control */,
 				8807BC602453CD52002D8D46 /* entitlements.xml */,

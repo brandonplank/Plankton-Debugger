@@ -1,5 +1,5 @@
 Package: org.brandonplank.plankton
-Version: 0.3
+Version: 0.4
 Section: Utilities
 Name:plankton
 Description: A wip debugger

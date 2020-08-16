@@ -24,15 +24,11 @@
 
 void attach(mach_port_t port);
 
-void runAttach(){
-    printf("Enter process to attach to >> ");
+void runAttach(char process[128]){
     int pid;
-    char process[128];
-    scanf("%s",*&process);
-    printf("\x1b[0m");
     pid = getPidOfProc(process);
     if (pid == 0){
-        printf("plankton does not currently support kernel debugging.\n");
+        printf("plankton does not currently support kernel debugging, or the name you entered is not valid.\n");
         return;
     }
     printf("[+] Attaching to PID %d...\n",pid);
@@ -78,7 +74,7 @@ void plankton(){
             printf("\n\033[1m   help\x1b[0m  - prints this help message\n");
             printf("\033[1m   rk <address> <size>\x1b[0m  -  reads specified amount of bytes from specified address of the live kernel\n");
             printf("\033[1m   wk <address> <data>\x1b[0m  -  writes specified data to specified address of the live kernel\n");
-            printf("\033[1m   attach\x1b[0m  -  attaches to the name or pid of a process\n");
+            printf("\033[1m   attach <pid/name>\x1b[0m  -  attaches to the name or pid of a process\n");
             printf("\033[1m   kexecute <arg1|arg2|arg3|arg4|arg5|arg6|arg7|arg8>\x1b[0m  -  Call kernel functions\n");
             printf("\033[1m   off\x1b[0m  -  prints the kernel task port, Kernel Base, and Kernel Slide\n");
             printf("\033[1m   q\x1b[0m  -  quit plankton\n\n");
@@ -91,16 +87,16 @@ void plankton(){
             size_t size = (size_t)strtoull(cmd[2],NULL,0);
             uint64_t livekerneladdr = kbase + kslide;
             if(value == livekerneladdr){
-                printf("[!] Due to an issue with plankton, you are not able to read the live kernel base, as it kernel panics the device.\n");
-                return;
+                printf("[!] Due to an issue with plankton, you are not able to read the slid kernel base, as it kernel panics the device.\n");
+                quit();
             }
             if(value <= 0){
                 printf("[!] The address cannot be 0 or less than 0.\n");
-                return;
+                quit();
             }
             if ((int)cmd[2] <= 0){
                 printf("[!] The size cannot be 0 or less than 0.\n");
-                return;
+                quit();
             }
             printf("[+] Reading 0x%016llx\n", value);
             readFromkernel(tfp0, value, NULL, size);
@@ -110,7 +106,10 @@ void plankton(){
             printf("[+] Writing 0x%016llx to 0x%016llx\n", arg1, arg2);
             wk64(arg1, arg2);
         } else if (strcmp(cmd[0], "attach")==0){
-            runAttach();
+            if(strcmp(cmd[0], "")==0){
+                printf("[!] Error! The second argument has to be a pid or a process name!\n");
+            }
+            runAttach(cmd[1]);
         } else if (strcmp(cmd[0], "kexecute")==0){
                    uint64_t one = strtoull(cmd[1], NULL, 0);
                    uint64_t two = strtoull(cmd[2], NULL, 0);

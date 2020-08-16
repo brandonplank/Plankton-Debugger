@@ -1,5 +1,5 @@
 TARGET = plankton
-VERSION = 0.3
+VERSION = 0.4
 CC = xcrun -sdk iphoneos clang -arch armv7 -arch arm64 -miphoneos-version-min=9.0
 LDID = ldid
 GO_EASY_ON_ME=1

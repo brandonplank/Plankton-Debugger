@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0EFCA8FD-EAAC-4F58-A603-32BE80D9048D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0EFCA8FD-EAAC-4F58-A603-32BE80D9048D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619251883.84064901</real>
+			<key>timeStoppedRecording</key>
+			<real>619251884.27547395</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>0EFCA8FD-EAAC-4F58-A603-32BE80D9048D</string>
+		</dict>
+		<key>1469AF14-5796-421D-AA34-4F14C17F6515</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1469AF14-5796-421D-AA34-4F14C17F6515.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619250304.84806597</real>
+			<key>timeStoppedRecording</key>
+			<real>619250305.30916095</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>1469AF14-5796-421D-AA34-4F14C17F6515</string>
+		</dict>
+		<key>51BE0E03-6CD1-4443-966A-4D3B43711D40</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>51BE0E03-6CD1-4443-966A-4D3B43711D40.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619251831.06812096</real>
+			<key>timeStoppedRecording</key>
+			<real>619251831.59650898</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>51BE0E03-6CD1-4443-966A-4D3B43711D40</string>
+		</dict>
+		<key>60C9611D-C010-45FC-8155-901779C14689</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>60C9611D-C010-45FC-8155-901779C14689.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619251288.21152401</real>
+			<key>timeStoppedRecording</key>
+			<real>619251288.735811</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>60C9611D-C010-45FC-8155-901779C14689</string>
+		</dict>
+		<key>77643BF1-14DB-43FA-8F26-C86C8BA03DE9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>77643BF1-14DB-43FA-8F26-C86C8BA03DE9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619252206.91328704</real>
+			<key>timeStoppedRecording</key>
+			<real>619252207.44129002</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>77643BF1-14DB-43FA-8F26-C86C8BA03DE9</string>
+		</dict>
+		<key>78D30066-07FE-4130-96D3-0112E8D2D158</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>78D30066-07FE-4130-96D3-0112E8D2D158.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619252145.30325305</real>
+			<key>timeStoppedRecording</key>
+			<real>619252145.98408306</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>78D30066-07FE-4130-96D3-0112E8D2D158</string>
+		</dict>
+		<key>C81E2FE3-0993-4C93-8FBF-F67EF7E4D138</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C81E2FE3-0993-4C93-8FBF-F67EF7E4D138.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619250307.05420995</real>
+			<key>timeStoppedRecording</key>
+			<real>619250307.47455299</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>C81E2FE3-0993-4C93-8FBF-F67EF7E4D138</string>
+		</dict>
+		<key>C8AE8517-2AB5-46A8-A46A-363370A98967</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C8AE8517-2AB5-46A8-A46A-363370A98967.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619250271.87299097</real>
+			<key>timeStoppedRecording</key>
+			<real>619250273.39860296</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>C8AE8517-2AB5-46A8-A46A-363370A98967</string>
+		</dict>
+		<key>D0AA6934-FD5A-48A1-9AC8-EAD48BDA483F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D0AA6934-FD5A-48A1-9AC8-EAD48BDA483F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619252256.62342298</real>
+			<key>timeStoppedRecording</key>
+			<real>619252257.20655596</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>D0AA6934-FD5A-48A1-9AC8-EAD48BDA483F</string>
+		</dict>
+		<key>D1F167FC-B46F-406E-BA8A-558522AC51CB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D1F167FC-B46F-406E-BA8A-558522AC51CB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619251866.08317196</real>
+			<key>timeStoppedRecording</key>
+			<real>619251866.50475502</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>D1F167FC-B46F-406E-BA8A-558522AC51CB</string>
+		</dict>
+		<key>F52D14DE-DB6E-4C09-A433-3BAF65828E45</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F52D14DE-DB6E-4C09-A433-3BAF65828E45.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619250306.19861102</real>
+			<key>timeStoppedRecording</key>
+			<real>619250306.653826</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>F52D14DE-DB6E-4C09-A433-3BAF65828E45</string>
+		</dict>
+		<key>FC641AE9-041A-474C-929F-AF2CB4C86DA1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FC641AE9-041A-474C-929F-AF2CB4C86DA1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>plankton project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plankton</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plankton</string>
+			<key>timeStartedRecording</key>
+			<real>619252332.25911701</real>
+			<key>timeStoppedRecording</key>
+			<real>619252333.01070404</real>
+			<key>title</key>
+			<string>Build plankton</string>
+			<key>uniqueIdentifier</key>
+			<string>FC641AE9-041A-474C-929F-AF2CB4C86DA1</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
